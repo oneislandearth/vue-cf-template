@@ -2,7 +2,7 @@
   "name": "@oneisland/vue-cf-template-service",
   "private": false,
   "version": "0.0.1",
-  "description": "",
+  "description": "A template for client-server application using Vue.js and Cloudflare Workers",
   "main": "src/main.js",
   "dependencies": {
     "@cloudflare/kv-asset-handler": "~0.0.11"

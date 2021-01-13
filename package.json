@@ -2,7 +2,7 @@
   "name": "@oneisland/vue-cf-template",
   "private": false,
   "version": "0.0.1",
-  "description": "",
+  "description": "A template for client-server application using Vue.js and Cloudflare Workers",
   "keywords": [
     "vue",
     "cloudflare",
@@ -10,17 +10,17 @@
   ],
   "scripts": {
     "build": "vue-cli-service build && wrangler build",
-    "preview": "npm run build; wrangler preview",
+    "preview": "wrangler preview",
     "serve": "vue-cli-service serve",
     "deploy": "npm run build; wrangler publish"
   },
   "dependencies": {
-    "@vue/cli": "^4.5.10",
     "register-service-worker": "^1.7.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
     "@cloudflare/wrangler": "^1.12.3",
+    "@vue/cli": "^4.5.10",
     "@vue/cli-plugin-pwa": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0"
