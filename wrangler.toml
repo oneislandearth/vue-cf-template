@@ -1,0 +1,10 @@
+name = "vue-cf-template"
+type = "webpack"
+webpack_config = "service/webpack.config.js"
+account_id = ""
+zone_id = ""
+route = ""
+
+[site]
+bucket = "service/public"
+entry-point = "service/"

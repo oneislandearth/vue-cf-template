@@ -1,0 +1,40 @@
+{
+  "name": "@oneisland/vue-cf-template",
+  "private": false,
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "vue",
+    "cloudflare",
+    "template"
+  ],
+  "scripts": {
+    "build": "vue-cli-service build && wrangler build",
+    "preview": "npm run build; wrangler preview",
+    "serve": "vue-cli-service serve",
+    "deploy": "npm run build; wrangler publish"
+  },
+  "dependencies": {
+    "@vue/cli": "^4.5.10",
+    "register-service-worker": "^1.7.1",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@cloudflare/wrangler": "^1.12.3",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0"
+  },
+  "homepage": "https://github.com/oneislandearth/vue-cf-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneislandearth/vue-cf-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oneislandearth/vue-cf-template/issues"
+  },
+  "contributors": [
+    "Daniel Larkin <daniel@oneisland.io>"
+  ],
+  "license": "MIT"
+}

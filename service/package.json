@@ -1,0 +1,14 @@
+{
+  "name": "@oneisland/vue-cf-template-service",
+  "private": false,
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.js",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "~0.0.11"
+  },
+  "contributors": [
+    "Daniel Larkin <daniel@oneisland.io>"
+  ],
+  "license": "MIT"
+}
